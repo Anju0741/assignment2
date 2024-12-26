@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajasthan - The Land of Royals</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Parallax Section */
+    .parallax {
+      background-image: url('https://1.bp.blogspot.com/-ScvBLRJ7tF4/XRd4S4QoFOI/AAAAAAAAo5c/20BX-OID694VzAewk72zbradk58axsWoQCLcBGAs/s1600/Rajasthan%2BImages%2BHD%2B8.jpg'); /* Rajasthan-themed image */
+      height: 450px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .parallax .overlay {
+      background-color: rgba(0, 0, 0, 0.6); /* Overlay for text contrast */
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .parallax .overlay h1 {
+      color: #f7c04a; /* Royal gold */
+      font-size: 4rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+
+    .parallax .overlay p {
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 4rem 2rem;
+    }
+
+    .highlights {
+      background-color: #f7c04a; /* Gold background */
+    }
+
+    .highlights h2 {
+      color: #800000; /* Maroon */
+      font-weight: bold;
+    }
+
+    .attractions .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #4d2600; /* Earthy brown */
+      color: #ffffff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #f7c04a;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Parallax Banner -->
+  <div class="parallax">
+    <div class="overlay">
+      <h1>Rajasthan</h1>
+      <p>Welcome to the Land of Palaces, Deserts, and Vibrant Cultures</p>
+    </div>
+  </div>
+
+  <!-- Highlights Section -->
+  <section class="highlights text-center">
+    <div class="container">
+      <h2>Why Visit Rajasthan?</h2>
+      <p class="mt-3">Experience India's royal legacy, from magnificent forts to serene lakes, bustling bazaars, and colorful festivals. Rajasthan offers a unique blend of heritage, culture, and adventure.</p>
+    </div>
+  </section>
+
+  <!-- Top Attractions Section -->
+  <section class="attractions">
+    <div class="container">
+      <h2 class="text-center mb-4">Top Attractions in Rajasthan</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://static.toiimg.com/photo/66220607/hawa-mahal.jpg?width=748&resize=4" alt="Hawa Mahal" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Hawa Mahal</h5>
+              <p class="card-text">The "Palace of Winds," designed with over 950 intricate windows in Jaipur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="http://3.bp.blogspot.com/-_eDzMzeSrBA/Ujl_2EkO5iI/AAAAAAAAEVY/yBEwUaAcfuw/s1600/Sonar+Qila+-+Jaisalmer.jpg" alt="Jaisalmer Fort" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Jaisalmer Fort</h5>
+              <p class="card-text">A breathtaking fort rising from the Thar Desert, known as the Golden Fort.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://indiano.travel/wp-content/uploads/2022/05/Beautiful-view-of-the-lake-Pichola.-Udaipur-Skyline-from-the-Lake-Pichola-Rajastan.-India.jpg" alt="Lake Pichola" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Lake Pichola</h5>
+              <p class="card-text">A romantic lake surrounded by palaces, offering serene boat rides.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Festivals Section -->
+  <section class="festivals bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Festivals in Rajasthan</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card shadow">
+            <div class="card-body">
+              <h5 class="card-title">Pushkar Camel Fair</h5>
+              <p class="card-text">One of the world's largest camel fairs, featuring cultural performances and competitions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow">
+            <div class="card-body">
+              <h5 class="card-title">Desert Festival</h5>
+              <p class="card-text">A vibrant festival in Jaisalmer with camel races, folk dances, and colorful costumes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cuisine Section -->
+  <section class="cuisine bg-warning text-dark text-center">
+    <div class="container">
+      <h2 class="mb-4">Taste the Flavors of Rajasthan</h2>
+      <p class="mb-4">Indulge in the traditional cuisine that reflects the heritage of Rajasthan.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Dal Baati Churma</h5>
+          <p>A classic dish of baked wheat balls, lentils, and sweetened cereal.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Laal Maas</h5>
+          <p>A fiery mutton curry loved by spice enthusiasts.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Ghevar</h5>
+          <p>A delicious dessert often prepared during festivals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Travel Tips Section -->
+  <section class="travel-tips">
+    <div class="container">
+      <h2 class="text-center mb-4">Travel Tips for Rajasthan</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Visit between October and March for the best weather.</li>
+        <li class="list-group-item">Pack sunscreen and light clothes for desert safaris.</li>
+        <li class="list-group-item">Hire local guides for historical tours of forts and palaces.</li>
+        <li class="list-group-item">Explore bustling bazaars for souvenirs like jewelry and pottery.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Desi Travels | Explore Rajasthan like never before!</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- https://1.bp.blogspot.com/-ScvBLRJ7tF4/XRd4S4QoFOI/AAAAAAAAo5c/20BX-OID694VzAewk72zbradk58axsWoQCLcBGAs/s1600/Rajasthan%2BImages%2BHD%2B8.jpg -->
+<!-- https://static.toiimg.com/photo/66220607/hawa-mahal.jpg?width=748&resize=4 -->
